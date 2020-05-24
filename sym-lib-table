@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name adafruit)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/components/adafruit.lib)(options "")(descr ""))
+)

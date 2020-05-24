@@ -1,0 +1,444 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x21_Female J7
+U 1 1 5EC80D37
+P 6100 3025
+F 0 "J7" H 6128 3051 50  0000 L CNN
+F 1 "Conn_01x21_Female" H 6128 2960 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x21_P2.54mm_Vertical" H 6100 3025 50  0001 C CNN
+F 3 "~" H 6100 3025 50  0001 C CNN
+	1    6100 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x21_Female J1
+U 1 1 5EC8196C
+P 2225 3100
+F 0 "J1" H 2117 4285 50  0000 C CNN
+F 1 "Conn_01x21_Female" H 2117 4194 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x21_P2.54mm_Vertical" H 2225 3100 50  0001 C CNN
+F 3 "~" H 2225 3100 50  0001 C CNN
+	1    2225 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 5EC8B8B7
+P 2425 2100
+F 0 "#PWR0101" H 2425 1950 50  0001 C CNN
+F 1 "+3V3" H 2440 2273 50  0000 C CNN
+F 2 "" H 2425 2100 50  0001 C CNN
+F 3 "" H 2425 2100 50  0001 C CNN
+	1    2425 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5EC8BC7D
+P 2425 4000
+F 0 "#PWR0102" H 2425 3850 50  0001 C CNN
+F 1 "+5V" V 2440 4128 50  0000 L CNN
+F 2 "" H 2425 4000 50  0001 C CNN
+F 3 "" H 2425 4000 50  0001 C CNN
+	1    2425 4000
+	0    1    1    0   
+$EndComp
+Text Notes 3350 4225 0    50   ~ 0
+USB
+$Comp
+L power:GND #PWR0103
+U 1 1 5EC8C5E4
+P 2425 4100
+F 0 "#PWR0103" H 2425 3850 50  0001 C CNN
+F 1 "GND" H 2430 3927 50  0000 C CNN
+F 2 "" H 2425 4100 50  0001 C CNN
+F 3 "" H 2425 4100 50  0001 C CNN
+	1    2425 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5EC8CD84
+P 5900 2025
+F 0 "#PWR0104" H 5900 1775 50  0001 C CNN
+F 1 "GND" V 5905 1897 50  0000 R CNN
+F 2 "" H 5900 2025 50  0001 C CNN
+F 3 "" H 5900 2025 50  0001 C CNN
+	1    5900 2025
+	0    1    1    0   
+$EndComp
+Text Label 2425 2200 0    50   ~ 0
+IO0
+Text Label 2425 2300 0    50   ~ 0
+IO1
+Text Label 2425 2400 0    50   ~ 0
+IO2
+Text Label 2425 2500 0    50   ~ 0
+IO3
+Text Label 2425 2600 0    50   ~ 0
+IO4
+Text Label 2425 2700 0    50   ~ 0
+IO5
+Text Label 2425 2800 0    50   ~ 0
+IO6
+Text Label 2425 2900 0    50   ~ 0
+IO7
+Text Label 2425 3000 0    50   ~ 0
+IO8
+Text Label 2425 3100 0    50   ~ 0
+IO9
+Text Label 2425 3200 0    50   ~ 0
+IO10
+Text Label 2425 3300 0    50   ~ 0
+IO11
+Text Label 2425 3400 0    50   ~ 0
+IO12
+Text Label 2425 3500 0    50   ~ 0
+IO13
+Text Label 2425 3600 0    50   ~ 0
+IO14
+Text Label 2425 3700 0    50   ~ 0
+IO15
+Text Label 2425 3800 0    50   ~ 0
+IO16
+Text Label 2425 3900 0    50   ~ 0
+IO17
+Text Label 5900 4025 2    50   ~ 0
+IO18
+Text Label 5900 3925 2    50   ~ 0
+USB-
+Text Label 5900 3825 2    50   ~ 0
+USB+
+Text Label 5900 3725 2    50   ~ 0
+IO21
+Text Label 5900 3625 2    50   ~ 0
+IO26
+Text Label 5900 3525 2    50   ~ 0
+IO33
+Text Label 5900 3425 2    50   ~ 0
+IO34
+Text Label 5900 3325 2    50   ~ 0
+IO35
+Text Label 5900 3225 2    50   ~ 0
+IO36
+Text Label 5900 3125 2    50   ~ 0
+IO37
+Text Label 5900 3025 2    50   ~ 0
+IO38
+Text Label 5900 2925 2    50   ~ 0
+TCK_IO39
+Text Label 5900 2825 2    50   ~ 0
+TDO_IO40
+Text Label 5900 2725 2    50   ~ 0
+TDI_IO41
+Text Label 5900 2625 2    50   ~ 0
+TMS_IO42
+Text Label 5900 2525 2    50   ~ 0
+TX0_IO43
+Text Label 5900 2425 2    50   ~ 0
+RX0_IO44
+Text Label 5900 2325 2    50   ~ 0
+IO45
+Text Label 5900 2225 2    50   ~ 0
+IO46
+Text Label 5900 2125 2    50   ~ 0
+RST
+$Comp
+L adafruit:FeatherBottom J5
+U 1 1 5EC91E51
+P 4800 3075
+F 0 "J5" V 3803 2837 60  0000 C CNN
+F 1 "FeatherBottom" V 3909 2837 60  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 5000 3075 60  0001 C CNN
+F 3 "" H 5000 3075 60  0001 C CNN
+	1    4800 3075
+	0    1    -1   0   
+$EndComp
+$Comp
+L adafruit:FeatherTop J2
+U 1 1 5EC9333C
+P 3125 3100
+F 0 "J2" V 3257 3519 60  0000 L CNN
+F 1 "FeatherTop" V 3363 3519 60  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 3425 3100 60  0001 C CNN
+F 3 "" H 3425 3100 60  0001 C CNN
+	1    3125 3100
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0105
+U 1 1 5EC9A0E3
+P 4800 3725
+F 0 "#PWR0105" H 4800 3575 50  0001 C CNN
+F 1 "+3V3" V 4815 3853 50  0000 L CNN
+F 2 "" H 4800 3725 50  0001 C CNN
+F 3 "" H 4800 3725 50  0001 C CNN
+	1    4800 3725
+	0    1    -1   0   
+$EndComp
+Text Label 4800 3825 0    50   ~ 0
+RST
+$Comp
+L power:GND #PWR0106
+U 1 1 5EC9AAB2
+P 4800 3525
+F 0 "#PWR0106" H 4800 3275 50  0001 C CNN
+F 1 "GND" V 4805 3397 50  0000 R CNN
+F 2 "" H 4800 3525 50  0001 C CNN
+F 3 "" H 4800 3525 50  0001 C CNN
+	1    4800 3525
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 5EC9B394
+P 3125 3250
+F 0 "#PWR0107" H 3125 3100 50  0001 C CNN
+F 1 "+5V" V 3140 3378 50  0000 L CNN
+F 2 "" H 3125 3250 50  0001 C CNN
+F 3 "" H 3125 3250 50  0001 C CNN
+	1    3125 3250
+	0    -1   1    0   
+$EndComp
+NoConn ~ 3125 3450
+NoConn ~ 3125 3350
+Text Label 3125 2750 2    50   ~ 0
+IO3
+Text Label 3125 2550 2    50   ~ 0
+IO1
+Text Label 4800 2825 0    50   ~ 0
+IO36
+Text Label 4800 2725 0    50   ~ 0
+IO35
+Text Label 4800 2625 0    50   ~ 0
+IO37
+NoConn ~ 4800 2325
+Text Label 4800 3325 0    50   ~ 0
+IO18
+Text Label 4800 3425 0    50   ~ 0
+IO17
+$Comp
+L Connector:USB_B_Micro J4
+U 1 1 5ECA3D2E
+P 3925 4825
+F 0 "J4" V 4028 5155 50  0000 L CNN
+F 1 "USB_B_Micro" V 3937 5155 50  0000 L CNN
+F 2 "adafruit:4UCONN_20329_V2_USB" H 4075 4775 50  0001 C CNN
+F 3 "~" H 4075 4775 50  0001 C CNN
+	1    3925 4825
+	0    -1   -1   0   
+$EndComp
+Text Label 3925 4525 1    50   ~ 0
+USB+
+Text Label 4025 4525 1    50   ~ 0
+USB-
+$Comp
+L Device:D_Small D1
+U 1 1 5ECA5A54
+P 3725 4225
+F 0 "D1" V 3679 4295 50  0000 L CNN
+F 1 "D_Small" V 3770 4295 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 3725 4225 50  0001 C CNN
+F 3 "~" V 3725 4225 50  0001 C CNN
+	1    3725 4225
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5ECA683F
+P 3725 4125
+F 0 "#PWR0108" H 3725 3975 50  0001 C CNN
+F 1 "+5V" V 3740 4253 50  0000 L CNN
+F 2 "" H 3725 4125 50  0001 C CNN
+F 3 "" H 3725 4125 50  0001 C CNN
+	1    3725 4125
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5ECA6EE5
+P 4425 4925
+F 0 "#PWR0109" H 4425 4675 50  0001 C CNN
+F 1 "GND" V 4430 4797 50  0000 R CNN
+F 2 "" H 4425 4925 50  0001 C CNN
+F 3 "" H 4425 4925 50  0001 C CNN
+	1    4425 4925
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4325 4825 4325 4925
+Wire Wire Line
+	4325 4925 4425 4925
+Connection ~ 4325 4925
+Wire Wire Line
+	3725 4325 3725 4525
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5ECA96B9
+P 3725 1825
+F 0 "J3" V 3787 1969 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 3878 1969 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 3725 1825 50  0001 C CNN
+F 3 "~" H 3725 1825 50  0001 C CNN
+	1    3725 1825
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0110
+U 1 1 5ECAC3DA
+P 4700 1375
+F 0 "#PWR0110" H 4700 1225 50  0001 C CNN
+F 1 "+3V3" H 4715 1548 50  0000 C CNN
+F 2 "" H 4700 1375 50  0001 C CNN
+F 3 "" H 4700 1375 50  0001 C CNN
+	1    4700 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5ECACA71
+P 4600 1775
+F 0 "#PWR0111" H 4600 1525 50  0001 C CNN
+F 1 "GND" V 4605 1647 50  0000 R CNN
+F 2 "" H 4600 1775 50  0001 C CNN
+F 3 "" H 4600 1775 50  0001 C CNN
+	1    4600 1775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 1475 4600 1475
+Wire Wire Line
+	4600 1475 4600 1575
+Wire Wire Line
+	4600 1775 4700 1775
+Connection ~ 4600 1775
+Wire Wire Line
+	4700 1575 4600 1575
+Connection ~ 4600 1575
+Wire Wire Line
+	4600 1575 4600 1775
+Text Label 5200 1375 0    50   ~ 0
+TMS_IO42
+Text Label 5200 1475 0    50   ~ 0
+TCK_IO39
+Text Label 5200 1775 0    50   ~ 0
+RST
+Text Label 5200 1575 0    50   ~ 0
+TDO_IO40
+Text Label 5200 1675 0    50   ~ 0
+TDI_IO41
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J6
+U 1 1 5ECB6E7C
+P 4900 1575
+F 0 "J6" H 4950 1992 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 4950 1901 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 4900 1575 50  0001 C CNN
+F 3 "~" H 4900 1575 50  0001 C CNN
+	1    4900 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0112
+U 1 1 5ECBA561
+P 3725 2025
+F 0 "#PWR0112" H 3725 1875 50  0001 C CNN
+F 1 "+3V3" H 3740 2198 50  0000 C CNN
+F 2 "" H 3725 2025 50  0001 C CNN
+F 3 "" H 3725 2025 50  0001 C CNN
+	1    3725 2025
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5ECBB033
+P 3825 2025
+F 0 "#PWR0113" H 3825 1775 50  0001 C CNN
+F 1 "GND" H 3830 1852 50  0000 C CNN
+F 2 "" H 3825 2025 50  0001 C CNN
+F 3 "" H 3825 2025 50  0001 C CNN
+	1    3825 2025
+	1    0    0    -1  
+$EndComp
+Text Label 3125 2350 2    50   ~ 0
+IO0
+Text Label 3625 2025 3    50   ~ 0
+IO0
+Text Label 4800 3625 0    50   ~ 0
+IO15
+Text Label 3125 3050 2    50   ~ 0
+IO38
+Text Label 4800 3225 0    50   ~ 0
+IO11
+Text Label 4800 3125 0    50   ~ 0
+IO10
+Text Label 4800 3025 0    50   ~ 0
+IO9
+Text Label 4800 2925 0    50   ~ 0
+IO8
+Text Label 3125 2450 2    50   ~ 0
+IO45
+Text Label 3525 2025 3    50   ~ 0
+IO45
+Text Label 4800 2525 0    50   ~ 0
+IO5
+Text Label 3125 2650 2    50   ~ 0
+IO2
+Text Label 4800 2425 0    50   ~ 0
+IO4
+Text Label 3125 3150 2    50   ~ 0
+IO34
+Text Label 3125 2950 2    50   ~ 0
+IO33
+Text Label 3125 2850 2    50   ~ 0
+IO26
+$Comp
+L Device:LED_Small D2
+U 1 1 5ECE290D
+P 3350 3850
+F 0 "D2" H 3350 4085 50  0000 C CNN
+F 1 "LED_Small" H 3350 3994 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3350 3850 50  0001 C CNN
+F 3 "~" V 3350 3850 50  0001 C CNN
+	1    3350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5ECE3770
+P 3550 3850
+F 0 "R1" V 3354 3850 50  0000 C CNN
+F 1 "R_Small" V 3445 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3550 3850 50  0001 C CNN
+F 3 "~" H 3550 3850 50  0001 C CNN
+	1    3550 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0114
+U 1 1 5ECE3AC8
+P 3650 3850
+F 0 "#PWR0114" H 3650 3700 50  0001 C CNN
+F 1 "+3V3" H 3665 4023 50  0000 C CNN
+F 2 "" H 3650 3850 50  0001 C CNN
+F 3 "" H 3650 3850 50  0001 C CNN
+	1    3650 3850
+	1    0    0    -1  
+$EndComp
+Text Label 3250 3850 2    50   ~ 0
+IO34
+$EndSCHEMATC
