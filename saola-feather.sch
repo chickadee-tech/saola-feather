@@ -16,146 +16,146 @@ $EndDescr
 $Comp
 L Connector:Conn_01x21_Female J7
 U 1 1 5EC80D37
-P 6100 3025
-F 0 "J7" H 6128 3051 50  0000 L CNN
-F 1 "Conn_01x21_Female" H 6128 2960 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x21_P2.54mm_Vertical" H 6100 3025 50  0001 C CNN
-F 3 "~" H 6100 3025 50  0001 C CNN
-	1    6100 3025
-	1    0    0    -1  
+P 1975 2950
+F 0 "J7" H 2003 2976 50  0000 L CNN
+F 1 "Conn_01x21_Female" H 2003 2885 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x21_P2.54mm_Vertical" H 1975 2950 50  0001 C CNN
+F 3 "~" H 1975 2950 50  0001 C CNN
+	1    1975 2950
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x21_Female J1
 U 1 1 5EC8196C
-P 2225 3100
-F 0 "J1" H 2117 4285 50  0000 C CNN
-F 1 "Conn_01x21_Female" H 2117 4194 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x21_P2.54mm_Vertical" H 2225 3100 50  0001 C CNN
-F 3 "~" H 2225 3100 50  0001 C CNN
-	1    2225 3100
-	-1   0    0    -1  
+P 6075 3050
+F 0 "J1" H 5967 4235 50  0000 C CNN
+F 1 "Conn_01x21_Female" H 5967 4144 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x21_P2.54mm_Vertical" H 6075 3050 50  0001 C CNN
+F 3 "~" H 6075 3050 50  0001 C CNN
+	1    6075 3050
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0101
 U 1 1 5EC8B8B7
-P 2425 2100
-F 0 "#PWR0101" H 2425 1950 50  0001 C CNN
-F 1 "+3V3" H 2440 2273 50  0000 C CNN
-F 2 "" H 2425 2100 50  0001 C CNN
-F 3 "" H 2425 2100 50  0001 C CNN
-	1    2425 2100
-	1    0    0    -1  
+P 5875 2050
+F 0 "#PWR0101" H 5875 1900 50  0001 C CNN
+F 1 "+3V3" H 5890 2223 50  0000 C CNN
+F 2 "" H 5875 2050 50  0001 C CNN
+F 3 "" H 5875 2050 50  0001 C CNN
+	1    5875 2050
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0102
 U 1 1 5EC8BC7D
-P 2425 4000
-F 0 "#PWR0102" H 2425 3850 50  0001 C CNN
-F 1 "+5V" V 2440 4128 50  0000 L CNN
-F 2 "" H 2425 4000 50  0001 C CNN
-F 3 "" H 2425 4000 50  0001 C CNN
-	1    2425 4000
-	0    1    1    0   
+P 5875 3950
+F 0 "#PWR0102" H 5875 3800 50  0001 C CNN
+F 1 "+5V" V 5890 4078 50  0000 L CNN
+F 2 "" H 5875 3950 50  0001 C CNN
+F 3 "" H 5875 3950 50  0001 C CNN
+	1    5875 3950
+	0    -1   1    0   
 $EndComp
 Text Notes 3350 4225 0    50   ~ 0
 USB
 $Comp
 L power:GND #PWR0103
 U 1 1 5EC8C5E4
-P 2425 4100
-F 0 "#PWR0103" H 2425 3850 50  0001 C CNN
-F 1 "GND" H 2430 3927 50  0000 C CNN
-F 2 "" H 2425 4100 50  0001 C CNN
-F 3 "" H 2425 4100 50  0001 C CNN
-	1    2425 4100
-	1    0    0    -1  
+P 5875 4050
+F 0 "#PWR0103" H 5875 3800 50  0001 C CNN
+F 1 "GND" H 5880 3877 50  0000 C CNN
+F 2 "" H 5875 4050 50  0001 C CNN
+F 3 "" H 5875 4050 50  0001 C CNN
+	1    5875 4050
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5EC8CD84
-P 5900 2025
-F 0 "#PWR0104" H 5900 1775 50  0001 C CNN
-F 1 "GND" V 5905 1897 50  0000 R CNN
-F 2 "" H 5900 2025 50  0001 C CNN
-F 3 "" H 5900 2025 50  0001 C CNN
-	1    5900 2025
-	0    1    1    0   
+P 2175 1950
+F 0 "#PWR0104" H 2175 1700 50  0001 C CNN
+F 1 "GND" V 2180 1822 50  0000 R CNN
+F 2 "" H 2175 1950 50  0001 C CNN
+F 3 "" H 2175 1950 50  0001 C CNN
+	1    2175 1950
+	0    -1   1    0   
 $EndComp
-Text Label 2425 2200 0    50   ~ 0
+Text Label 5875 2150 2    50   ~ 0
 IO0
-Text Label 2425 2300 0    50   ~ 0
+Text Label 5875 2250 2    50   ~ 0
 IO1
-Text Label 2425 2400 0    50   ~ 0
+Text Label 5875 2350 2    50   ~ 0
 IO2
-Text Label 2425 2500 0    50   ~ 0
+Text Label 5875 2450 2    50   ~ 0
 IO3
-Text Label 2425 2600 0    50   ~ 0
+Text Label 5875 2550 2    50   ~ 0
 IO4
-Text Label 2425 2700 0    50   ~ 0
+Text Label 5875 2650 2    50   ~ 0
 IO5
-Text Label 2425 2800 0    50   ~ 0
+Text Label 5875 2750 2    50   ~ 0
 IO6
-Text Label 2425 2900 0    50   ~ 0
+Text Label 5875 2850 2    50   ~ 0
 IO7
-Text Label 2425 3000 0    50   ~ 0
+Text Label 5875 2950 2    50   ~ 0
 IO8
-Text Label 2425 3100 0    50   ~ 0
+Text Label 5875 3050 2    50   ~ 0
 IO9
-Text Label 2425 3200 0    50   ~ 0
+Text Label 5875 3150 2    50   ~ 0
 IO10
-Text Label 2425 3300 0    50   ~ 0
+Text Label 5875 3250 2    50   ~ 0
 IO11
-Text Label 2425 3400 0    50   ~ 0
+Text Label 5875 3350 2    50   ~ 0
 IO12
-Text Label 2425 3500 0    50   ~ 0
+Text Label 5875 3450 2    50   ~ 0
 IO13
-Text Label 2425 3600 0    50   ~ 0
+Text Label 5875 3550 2    50   ~ 0
 IO14
-Text Label 2425 3700 0    50   ~ 0
+Text Label 5875 3650 2    50   ~ 0
 IO15
-Text Label 2425 3800 0    50   ~ 0
+Text Label 5875 3750 2    50   ~ 0
 IO16
-Text Label 2425 3900 0    50   ~ 0
+Text Label 5875 3850 2    50   ~ 0
 IO17
-Text Label 5900 4025 2    50   ~ 0
+Text Label 2175 3950 0    50   ~ 0
 IO18
-Text Label 5900 3925 2    50   ~ 0
+Text Label 2175 3850 0    50   ~ 0
 USB-
-Text Label 5900 3825 2    50   ~ 0
+Text Label 2175 3750 0    50   ~ 0
 USB+
-Text Label 5900 3725 2    50   ~ 0
+Text Label 2175 3650 0    50   ~ 0
 IO21
-Text Label 5900 3625 2    50   ~ 0
+Text Label 2175 3550 0    50   ~ 0
 IO26
-Text Label 5900 3525 2    50   ~ 0
+Text Label 2175 3450 0    50   ~ 0
 IO33
-Text Label 5900 3425 2    50   ~ 0
+Text Label 2175 3350 0    50   ~ 0
 IO34
-Text Label 5900 3325 2    50   ~ 0
+Text Label 2175 3250 0    50   ~ 0
 IO35
-Text Label 5900 3225 2    50   ~ 0
+Text Label 2175 3150 0    50   ~ 0
 IO36
-Text Label 5900 3125 2    50   ~ 0
+Text Label 2175 3050 0    50   ~ 0
 IO37
-Text Label 5900 3025 2    50   ~ 0
+Text Label 2175 2950 0    50   ~ 0
 IO38
-Text Label 5900 2925 2    50   ~ 0
+Text Label 2175 2850 0    50   ~ 0
 TCK_IO39
-Text Label 5900 2825 2    50   ~ 0
+Text Label 2175 2750 0    50   ~ 0
 TDO_IO40
-Text Label 5900 2725 2    50   ~ 0
+Text Label 2175 2650 0    50   ~ 0
 TDI_IO41
-Text Label 5900 2625 2    50   ~ 0
+Text Label 2175 2550 0    50   ~ 0
 TMS_IO42
-Text Label 5900 2525 2    50   ~ 0
+Text Label 2175 2450 0    50   ~ 0
 TX0_IO43
-Text Label 5900 2425 2    50   ~ 0
+Text Label 2175 2350 0    50   ~ 0
 RX0_IO44
-Text Label 5900 2325 2    50   ~ 0
+Text Label 2175 2250 0    50   ~ 0
 IO45
-Text Label 5900 2225 2    50   ~ 0
+Text Label 2175 2150 0    50   ~ 0
 IO46
-Text Label 5900 2125 2    50   ~ 0
+Text Label 2175 2050 0    50   ~ 0
 RST
 $Comp
 L adafruit:FeatherBottom J5
@@ -216,9 +216,9 @@ F 3 "" H 3125 3250 50  0001 C CNN
 $EndComp
 NoConn ~ 3125 3450
 NoConn ~ 3125 3350
-Text Label 3125 2750 2    50   ~ 0
-IO3
 Text Label 3125 2550 2    50   ~ 0
+IO3
+Text Label 3125 2350 2    50   ~ 0
 IO1
 Text Label 4800 2825 0    50   ~ 0
 IO36
@@ -374,10 +374,6 @@ F 3 "" H 3825 2025 50  0001 C CNN
 	1    3825 2025
 	1    0    0    -1  
 $EndComp
-Text Label 3125 2350 2    50   ~ 0
-IO0
-Text Label 3625 2025 3    50   ~ 0
-IO0
 Text Label 4800 3625 0    50   ~ 0
 IO15
 Text Label 3125 3050 2    50   ~ 0
@@ -390,13 +386,9 @@ Text Label 4800 3025 0    50   ~ 0
 IO9
 Text Label 4800 2925 0    50   ~ 0
 IO8
-Text Label 3125 2450 2    50   ~ 0
-IO45
-Text Label 3525 2025 3    50   ~ 0
-IO45
 Text Label 4800 2525 0    50   ~ 0
 IO5
-Text Label 3125 2650 2    50   ~ 0
+Text Label 3125 2450 2    50   ~ 0
 IO2
 Text Label 4800 2425 0    50   ~ 0
 IO4
@@ -441,4 +433,12 @@ F 3 "" H 3650 3850 50  0001 C CNN
 $EndComp
 Text Label 3250 3850 2    50   ~ 0
 IO34
+Text Label 3625 2025 3    50   ~ 0
+IO1
+Text Label 3525 2025 3    50   ~ 0
+IO2
+Text Label 3125 2750 2    50   ~ 0
+IO21
+Text Label 3125 2650 2    50   ~ 0
+IO12
 $EndSCHEMATC
