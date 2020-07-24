@@ -441,4 +441,51 @@ Text Label 3125 2750 2    50   ~ 0
 IO21
 Text Label 3125 2650 2    50   ~ 0
 IO12
+$Comp
+L Device:C_Small C1
+U 1 1 5F1BBAA5
+P 5100 4550
+F 0 "C1" H 5192 4596 50  0000 L CNN
+F 1 "1uF" H 5192 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 4550 50  0001 C CNN
+F 3 "~" H 5100 4550 50  0001 C CNN
+	1    5100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5F1BC2ED
+P 4900 4550
+F 0 "R2" H 4750 4600 50  0000 L CNN
+F 1 "100k+" H 4550 4500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4900 4550 50  0001 C CNN
+F 3 "~" H 4900 4550 50  0001 C CNN
+	1    4900 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5F1BD055
+P 5000 4650
+F 0 "#PWR0115" H 5000 4400 50  0001 C CNN
+F 1 "GND" H 5005 4477 50  0000 C CNN
+F 2 "" H 5000 4650 50  0001 C CNN
+F 3 "" H 5000 4650 50  0001 C CNN
+	1    5000 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4650 5000 4650
+Wire Wire Line
+	5000 4650 4900 4650
+Connection ~ 5000 4650
+Wire Wire Line
+	5100 4450 5000 4450
+Wire Wire Line
+	5000 4350 5000 4450
+Connection ~ 5000 4450
+Wire Wire Line
+	5000 4450 4900 4450
+Text Label 5000 4350 2    50   ~ 0
+IO13
 $EndSCHEMATC
