@@ -379,12 +379,10 @@ IO15
 Text Label 3125 3050 2    50   ~ 0
 IO38
 Text Label 4800 3225 0    50   ~ 0
-IO11
-Text Label 4800 3125 0    50   ~ 0
 IO10
-Text Label 4800 3025 0    50   ~ 0
+Text Label 4800 3125 0    50   ~ 0
 IO9
-Text Label 4800 2925 0    50   ~ 0
+Text Label 4800 3025 0    50   ~ 0
 IO8
 Text Label 4800 2525 0    50   ~ 0
 IO5
@@ -396,8 +394,6 @@ Text Label 3125 3150 2    50   ~ 0
 IO34
 Text Label 3125 2950 2    50   ~ 0
 IO33
-Text Label 3125 2850 2    50   ~ 0
-IO26
 $Comp
 L Device:LED_Small D2
 U 1 1 5ECE290D
@@ -488,4 +484,8 @@ Wire Wire Line
 	5000 4450 4900 4450
 Text Label 5000 4350 2    50   ~ 0
 IO13
+Text Label 3125 2850 2    50   ~ 0
+IO6
+Text Label 4800 2925 0    50   ~ 0
+IO7
 $EndSCHEMATC
